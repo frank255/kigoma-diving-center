@@ -16,7 +16,7 @@
             </li>
             <li>
               <a
-                href="/"
+                href="#services"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -25,11 +25,20 @@
             </li>
             <li>
               <a
-                href="/"
+                href="#aboutus"
                 aria-label="Product pricing"
                 title="Product pricing"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >About us</a
+              >
+            </li>
+            <li>
+              <a
+                href="#team"
+                aria-label="Product pricing"
+                title="Product pricing"
+                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                >Our Team</a
               >
             </li>
           </ul>
@@ -39,21 +48,8 @@
             title="Company"
             class="inline-flex items-center lg:mx-auto"
           >
-            <svg
-              class="w-8 text-teal-accent-400"
-              viewBox="0 0 24 24"
-              stroke-linejoin="round"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-miterlimit="10"
-              stroke="currentColor"
-              fill="none"
-            >
-              <rect x="3" y="1" width="7" height="12"></rect>
-              <rect x="3" y="17" width="7" height="6"></rect>
-              <rect x="14" y="1" width="7" height="6"></rect>
-              <rect x="14" y="11" width="7" height="12"></rect>
-            </svg>
+          <img src="/src/assets/diver-svg.svg" class="w-14 h-14">
+
             <span
               class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase"
               >KDSC</span
@@ -67,6 +63,15 @@
                 title="Sign in"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >Contacts</a
+              >
+            </li>
+            <li>
+              <a
+                href="/"
+                aria-label="Sign in"
+                title="Sign in"
+                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                >Testimonials</a
               >
             </li>
             <li>
@@ -112,21 +117,8 @@
                       title="Company"
                       class="inline-flex items-center"
                     >
-                      <svg
-                        class="w-8 text-deep-purple-accent-400"
-                        viewBox="0 0 24 24"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke="currentColor"
-                        fill="none"
-                      >
-                        <rect x="3" y="1" width="7" height="12"></rect>
-                        <rect x="3" y="17" width="7" height="6"></rect>
-                        <rect x="14" y="1" width="7" height="6"></rect>
-                        <rect x="14" y="11" width="7" height="12"></rect>
-                      </svg>
+                    <img src="/src/assets/diver-svg.svg" class="w-14 h-14">
+
                       <span
                         class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase"
                         >KDSC</span
