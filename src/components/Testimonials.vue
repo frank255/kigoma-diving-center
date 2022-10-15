@@ -1,7 +1,7 @@
 <template>
 	<section class="my-8">
 		<div class="container mx-auto flex flex-col items-center pb-6 mb-4 md:p-10 md:px-12">
-			<h1 class="text-4xl font-semibold leading-none text-center">What our customers are saying about us</h1>
+			<h1 class="text-4xl font-semibold leading-none text-center text-green-300">What our customers are saying about us</h1>
 		</div>
 		<div class="container mx-auto grid grid-cols-1 gap-8 lg:gap-20 md:px-10 md:pb-10 lg:grid-cols-2">
 			<div class="flex flex-col items-center mx-12 lg:mx-0">

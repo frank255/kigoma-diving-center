@@ -3,8 +3,8 @@
       <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
         <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
-            <p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              Brand new
+            <p class="inline-block px-3 py-px mb-4 text-2xl font-semibold tracking-wider text-green-300 uppercase rounded-full bg-teal-accent-400">
+              FAQS
             </p>
           </div>
           <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -17,13 +17,11 @@
                 </defs>
                 <rect fill="url(#70326c9b-4a0f-429b-9c76-792941e326d5)" width="52" height="24"></rect>
               </svg>
-              <span class="relative">The</span>
+              <span class="relative">These</span>
             </span>
-            quick, brown fox jumps over a lazy dog
+            Are the frequently asked questions by our customers
           </h2>
-          <p class="text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
-          </p>
+        
         </div>
       </div>
       <div class="max-w-screen-xl sm:mx-auto">
