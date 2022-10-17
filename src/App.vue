@@ -2,7 +2,7 @@
 import { RouterLink, RouterView } from "vue-router";
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
-
+import Newfooter from "./components/Newfooter.vue";
 </script>
 
 <template>
@@ -15,7 +15,7 @@ import Footer from "./components/Footer.vue";
     <!-- sticky header -->
     <header class="sticky top-0 ..."><Navbar /></header>
     <!-- end sticky header -->
-    <RouterView/>
+    <RouterView />
   </div>
   <Footer id="footer"/>
 </template>
