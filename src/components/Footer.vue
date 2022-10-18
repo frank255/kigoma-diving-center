@@ -12,16 +12,16 @@
             <p class="font-medium mt-3 tracking-wide text-gray-500">Contacts</p>
             <div class="flex">
           <p class="mr-1 text-gray-500">Phone:</p>
-          <a href="tel:850-123-5021" aria-label="Our phone" title="Our phone" class="transition-colors duration-300 text-gray-500 hover:text-deep-purple-800">850-123-5021</a>
+          <a href="tel:+255764 722 945" aria-label="Our phone" title="Our phone" class="transition-colors duration-300 text-gray-500 hover:text-deep-purple-800">0764 722 945</a>
         </div>
         <div class="flex">
           <p class="mr-1 text-gray-500">Email:</p>
-          <a href="mailto:info@lorem.mail" aria-label="Our email" title="Our email" class="transition-colors duration-300 text-gray-500 hover:text-deep-purple-800">info@lorem.mail</a>
+          <a href="mailto:gmsafiry@gmail.com" aria-label="Our email" title="Our email" class="transition-colors duration-300 text-gray-500 hover:text-deep-purple-800">gmsafiry@gmail.com</a>
         </div>
         <div class="flex">
           <p class="mr-1 text-gray-500">Address:</p>
-          <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer" aria-label="Our address" title="Our address" class="transition-colors duration-300 text-gray-500 hover:text-deep-purple-800">
-            312 Lovely Street, NY
+          <a href="https://www.google.com/maps/dir//KIGOMA+DIVING+%26SNORKLING+CENTER/data=!4m8!4m7!1m0!1m5!1m1!1s0x19bf1bd64c354a4b:0xa48b88eb89fac547!2m2!1d29.621400599999998!2d-4.8848063999999995" target="_blank" rel="noopener noreferrer" aria-label="Our address" title="Our address" class="transition-colors duration-300 text-gray-500 hover:text-deep-purple-800">
+            click to get direction
           </a>
         </div>
           </div>
@@ -68,7 +68,7 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
+      <div class="flex flex-col justify-between pt-5 pb-10 border-t border-gray-400 sm:flex-row">
         <p class="text-sm text-gray-500">
           © Copyright {{year}} KDSC. All rights reserved.
         </p>

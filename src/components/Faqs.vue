@@ -3,7 +3,7 @@
       <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
         <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
-            <p class="inline-block px-3 py-px mb-4 text-2xl font-semibold tracking-wider text-green-300 uppercase rounded-full bg-teal-accent-400">
+            <p class="inline-block px-3 py-px mb-4 text-3xl sm:text-5xl font-semibold tracking-wider text-[#A45C40] uppercase rounded-full bg-teal-accent-400">
               FAQS
             </p>
           </div>
