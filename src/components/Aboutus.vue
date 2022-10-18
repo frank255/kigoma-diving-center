@@ -9,6 +9,7 @@
       lg:max-w-screen-xl
       md:px-24
       lg:px-8 lg:py-20
+      -z-50
     "
   >
     <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -99,6 +100,7 @@
         md:row-gap-8
         lg:grid-cols-4
         sm:grid-cols-2
+        -z-50
       "
     >
       <div
@@ -108,6 +110,7 @@
           bg-white
           border-l-4 border-deep-purple-accent-400
           hover:-translate-y-2
+          -z-50
         "
       >
         <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
@@ -126,6 +129,7 @@
           bg-white
           border-l-4 border-deep-purple-accent-400
           hover:-translate-y-2
+          -z-50
         "
       >
         <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
@@ -145,6 +149,7 @@
           bg-white
           border-l-4 border-deep-purple-accent-400
           hover:-translate-y-2
+          -z-50
         "
       >
         <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
@@ -164,6 +169,7 @@
           bg-white
           border-l-4 border-deep-purple-accent-400
           hover:-translate-y-2
+          -z-50
         "
       >
         <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">

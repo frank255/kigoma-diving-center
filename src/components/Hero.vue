@@ -1,5 +1,5 @@
 <template>
-    <div class="relative flex flex-col py-16 lg:pt-0 lg:flex-col lg:pb-0">
+    <div class="relative flex flex-col py-16 lg:pt-0 lg:flex-col lg:pb-0 -z-50">
       <div class="flex flex-col items-start w-full max-w-xl px-4 mx-auto lg:px-8 lg:max-w-screen-xl">
         <div class="mb-10 lg:my-40 lg:max-w-lg lg:pr-5">
           <div class="mb-4 flex flex-col items-center justify-center">
@@ -15,7 +15,7 @@
           </div>
         </div>
       </div>
-      <div class="inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
+      <div class="inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute -z-50 xl:px-0">
         <img
           class="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
           src="/src/assets/divers.jpeg"

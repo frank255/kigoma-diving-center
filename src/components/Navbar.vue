@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-r from-cyan-500 to-blue-500">
+  <div class="bg-gradient-to-r from-cyan-500 to-blue-500 z-50">
     <div
       class="
         px-4
@@ -163,7 +163,7 @@
             </a>
           </li>
         </ul>
-        <div class="ml-auto lg:hidden ">
+        <div class="ml-auto lg:hidden">
           <button
             aria-label="Open Menu"
             title="Open Menu"
@@ -193,7 +193,18 @@
             </svg>
           </button>
           <div v-if="isMenuOpen" class="absolute top-0 left-0 w-full">
-            <div class="p-5 bg-gradient-to-r from-cyan-500 to-blue-500 border rounded shadow-sm">
+            <div
+              class="
+                p-5
+                bg-gradient-to-r
+                from-cyan-500
+                to-blue-500
+                border
+                rounded
+                shadow-sm
+                z-50
+              "
+            >
               <div class="flex items-center justify-between mb-4">
                 <div>
                   <a
