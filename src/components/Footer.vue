@@ -8,7 +8,7 @@
           Kigoma Diving&Snorkling Center is committed to offering excellent services with integrity and impartiality.</p>
         </div>
         <div class="grid grid-cols-1 gap-5 row-gap-8 lg:col-span-2 md:grid-cols-2">
-          <div>
+          <div class="md:w-56">
             <p class="font-medium mt-3 tracking-wide text-gray-500">Contacts</p>
             <div class="flex">
           <p class="mr-1 text-gray-500">Phone:</p>
@@ -25,8 +25,8 @@
           </a>
         </div>
           </div>
-          <div>
-            <p class="font-medium mt-4 tracking-wide text-gray-500">Other links</p>
+          <div class="md:ml-16">
+            <p class="font-medium mt-4  tracking-wide text-gray-500">Other links</p>
             <ul class="mt-2 space-y-2">
               <li>
                 <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">Web</a>
@@ -47,7 +47,7 @@
           </div>
         
         </div>
-        <div class="md:max-w-md mt-4 lg:col-span-2">
+        <div class="md:max-w-md mt-4 md:ml-10 lg:col-span-2">
           <span class="text-base font-medium tracking-wide text-gray-500">Subscribe for updates</span>
           <form class="flex flex-col mt-4 md:flex-row">
             <input

@@ -1,5 +1,5 @@
 <template>
-	<section class="dark:bg-gray-800 dark:text-gray-100" >
+	<section class="bg-gray-800 text-gray-100" >
 		<div class="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
 			<div>
 				<h2 class="text-3xl font-bold tracking-tight text-center sm:text-5xl dark:text-gray-50">Services That We Offer</h2>
