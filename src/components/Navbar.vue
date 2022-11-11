@@ -17,8 +17,6 @@
           <li>
             <a
               href="/"
-              aria-label="Our product"
-              title="Our product"
               class="
                 font-medium
                 tracking-wide
@@ -33,8 +31,6 @@
           <li>
             <a
               href="#services"
-              aria-label="Our product"
-              title="Our product"
               class="
                 font-medium
                 tracking-wide
@@ -49,8 +45,6 @@
           <li>
             <a
               href="#aboutus"
-              aria-label="Product pricing"
-              title="Product pricing"
               class="
                 font-medium
                 tracking-wide
@@ -65,8 +59,6 @@
           <li>
             <a
               href="#team"
-              aria-label="Product pricing"
-              title="Product pricing"
               class="
                 font-medium
                 tracking-wide
@@ -85,12 +77,7 @@
           title="Company"
           class="inline-flex items-center lg:mx-auto"
         >
-          <img src="/src/assets/diver-svg.svg" class="w-14 h-14" />
-
-          <span
-            class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase"
-            >KDSC</span
-          >
+          <img src="/src/assets/kigoma 3.png" class="w-30 h-28" />
         </a>
         <ul class="items-center hidden ml-auto space-x-8 lg:flex">
           <li>
@@ -110,8 +97,6 @@
           <li>
             <a
               href="#contacts"
-              aria-label="Sign in"
-              title="Sign in"
               class="
                 font-medium
                 tracking-wide
@@ -137,7 +122,7 @@
               >Testimonials</a
             >
           </li>
-          <li>
+          <li class="flex">
             <a
               href="/booking"
               class="
@@ -160,6 +145,11 @@
               "
             >
               Booking
+              <span
+                class="flex items-center justify-center w-6 h-6 rounded-full"
+              >
+                <img src="/src/assets/booking.png" alt="" srcset="" />
+              </span>
             </a>
           </li>
         </ul>
@@ -207,13 +197,8 @@
             >
               <div class="flex items-center justify-between mb-4">
                 <div>
-                  <a
-                    href="/"
-                    aria-label="Company"
-                    title="Company"
-                    class="inline-flex items-center"
-                  >
-                    <img src="/src/assets/diver-svg.svg" class="w-14 h-14" />
+                  <a href="/" class="inline-flex items-center">
+                    <img src="/src/assets/kigoma 3.png" class="w-14 h-14" />
 
                     <span
                       class="
@@ -258,8 +243,6 @@
                   <li>
                     <a
                       href="/"
-                      aria-label="Our product"
-                      title="Our product"
                       class="
                         font-medium
                         tracking-wide
@@ -274,8 +257,6 @@
                   <li>
                     <a
                       href="/"
-                      aria-label="Our product"
-                      title="Our product"
                       class="
                         font-medium
                         tracking-wide
@@ -290,8 +271,6 @@
                   <li>
                     <a
                       href="/"
-                      aria-label="Product pricing"
-                      title="Product pricing"
                       class="
                         font-medium
                         tracking-wide
@@ -306,8 +285,6 @@
                   <li>
                     <a
                       href="/"
-                      aria-label="Sign in"
-                      title="Sign in"
                       class="
                         font-medium
                         tracking-wide
@@ -322,8 +299,6 @@
                   <li>
                     <a
                       href="#team"
-                      aria-label="Product pricing"
-                      title="Product pricing"
                       class="
                         font-medium
                         tracking-wide

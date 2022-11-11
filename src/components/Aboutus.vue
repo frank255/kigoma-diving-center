@@ -12,7 +12,12 @@
       -z-50
     "
   >
-    <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+    <div
+      class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"
+      data-aos="zoom-out"
+      data-aos-duration="1500"
+      data-aos-delay="500"
+    >
       <div>
         <p
           class="
@@ -87,8 +92,8 @@
         quick, brown fox jumps over a lazy dog
       </h2>
       <p class="text-base text-gray-700 md:text-lg">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque rem aperiam, eaque ipsa quae.
+        KDSC is committed to offering excellent services with integrity and
+        impartiality, based on the following core values
       </p>
     </div>
     <div
@@ -113,7 +118,12 @@
           -z-50
         "
       >
-        <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
+        <div
+          class="h-full p-5 border border-l-0 rounded-r shadow-sm"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
           <h6 class="mb-2 font-semibold leading-5">Teamwork</h6>
           <p class="text-sm text-gray-900">
             KDSC commits itself to embracing a working relationship, which
@@ -132,7 +142,12 @@
           -z-50
         "
       >
-        <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
+        <div
+          class="h-full p-5 border border-l-0 rounded-r shadow-sm"
+          data-aos="flip-up"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
           <h6 class="mb-2 font-semibold leading-5">Gender Sensitivity</h6>
           <p class="text-sm text-gray-900">
             KDSC shall promotes gender balances in its activities and decision
@@ -152,7 +167,12 @@
           -z-50
         "
       >
-        <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
+        <div
+          class="h-full p-5 border border-l-0 rounded-r shadow-sm"
+          data-aos="flip-up"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
           <h6 class="mb-2 font-semibold leading-5">Environmental Protection</h6>
           <p class="text-sm text-gray-900">
             KDSC staff shall refrain from any activity, mission or an act which
@@ -172,7 +192,12 @@
           -z-50
         "
       >
-        <div class="h-full p-5 border border-l-0 rounded-r shadow-sm">
+        <div
+          class="h-full p-5 border border-l-0 rounded-r shadow-sm"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
           <h6 class="mb-2 font-semibold leading-5">
             Transparency&Accountability
           </h6>
