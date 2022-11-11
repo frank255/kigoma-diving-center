@@ -25,7 +25,7 @@
     </div>
     <div
       class="
-        container
+        w-full
         mx-auto
         grid grid-cols-1
         gap-8
@@ -35,7 +35,7 @@
       "
     >
       <div
-        class="flex flex-col items-center mx-12 lg:mx-0"
+        class="flex flex-col z-10 items-center mx-12 lg:mx-0"
         v-for="comment in comments"
         :key="comment.id"
         data-aos="zoom-in"

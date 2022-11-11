@@ -144,7 +144,7 @@
       >
         <div
           class="h-full p-5 border border-l-0 rounded-r shadow-sm"
-          data-aos="flip-up"
+          data-aos="fade-right"
           data-aos-duration="1500"
           data-aos-delay="500"
         >
@@ -169,7 +169,7 @@
       >
         <div
           class="h-full p-5 border border-l-0 rounded-r shadow-sm"
-          data-aos="flip-up"
+          data-aos="fade-left"
           data-aos-duration="1500"
           data-aos-delay="500"
         >
