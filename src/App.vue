@@ -5,7 +5,7 @@ import Footer from "./components/Footer.vue";
 </script>
 
 <template>
-  <div class="overfow-hidden">
+  <div class="overflow-hidden">
     <!-- sticky header -->
     <header class="fixed top-0 left-0 right-0 w-full"><Navbar /></header>
     <!-- end sticky header -->
