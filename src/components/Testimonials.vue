@@ -38,9 +38,7 @@
         class="flex flex-col z-10 items-center mx-12 lg:mx-0"
         v-for="comment in comments"
         :key="comment.id"
-        data-aos="zoom-in"
-        data-aos-duration="1500"
-        data-aos-delay="500"
+      
       >
         <div class="relative text-center">
           <svg

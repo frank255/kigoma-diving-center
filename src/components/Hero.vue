@@ -7,6 +7,7 @@
         w-full
         max-w-xl
         px-4
+        pt-20
         mx-auto
         lg:px-8 lg:max-w-screen-xl
       "

@@ -5,9 +5,9 @@ import Footer from "./components/Footer.vue";
 </script>
 
 <template>
-  <div>
+  <div class="overfow-hidden">
     <!-- sticky header -->
-    <header class="sticky top-0 ..."><Navbar /></header>
+    <header class="fixed top-0 left-0 right-0 w-full"><Navbar /></header>
     <!-- end sticky header -->
     <RouterView />
   </div>

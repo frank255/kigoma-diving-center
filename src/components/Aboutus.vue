@@ -12,89 +12,10 @@
       -z-50
     "
   >
-    <div
-      class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"
-      data-aos="zoom-out"
-      data-aos-duration="1500"
-      data-aos-delay="500"
-    >
-      <div>
-        <p
-          class="
-            inline-block
-            px-3
-            py-px
-            mb-4
-            text-3xl
-            sm:text-5xl
-            font-semibold
-            tracking-wider
-            text-[#A45C40]
-            uppercase
-            rounded-full
-            bg-teal-accent-400
-          "
-        >
-          About us
-        </p>
-      </div>
-      <h2
-        class="
-          max-w-lg
-          mb-6
-          font-sans
-          text-3xl
-          font-bold
-          leading-none
-          tracking-tight
-          text-gray-900
-          sm:text-4xl
-          md:mx-auto
-        "
-      >
-        <span class="relative inline-block">
-          <svg
-            viewBox="0 0 52 24"
-            fill="currentColor"
-            class="
-              absolute
-              top-0
-              left-0
-              z-0
-              hidden
-              w-32
-              -mt-8
-              -ml-20
-              text-blue-gray-100
-              lg:w-32 lg:-ml-28 lg:-mt-10
-              sm:block
-            "
-          >
-            <defs>
-              <pattern
-                id="34f481be-159a-4846-821d-9ca19fb6bcc5"
-                x="0"
-                y="0"
-                width=".135"
-                height=".30"
-              >
-                <circle cx="1" cy="1" r=".7"></circle>
-              </pattern>
-            </defs>
-            <rect
-              fill="url(#34f481be-159a-4846-821d-9ca19fb6bcc5)"
-              width="52"
-              height="24"
-            ></rect>
-          </svg>
-          <span class="relative">The</span>
-        </span>
-        quick, brown fox jumps over a lazy dog
-      </h2>
-      <p class="text-base text-gray-700 md:text-lg">
-        KDSC is committed to offering excellent services with integrity and
-        impartiality, based on the following core values
-      </p>
+    <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+      <h1 data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="500">
+        hello
+      </h1>
     </div>
     <div
       class="

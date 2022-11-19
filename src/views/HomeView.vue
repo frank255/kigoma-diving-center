@@ -7,7 +7,6 @@ import Team from "../components/Team.vue";
 import Testimonials from "../components/Testimonials.vue";
 import Hero from "../components/Hero.vue";
 
-
 </script>
 <template>
 	<Hero/>
