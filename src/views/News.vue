@@ -3,6 +3,7 @@
     class="
       px-4
       py-16
+      mt-20
       mx-auto
       sm:max-w-xl
       md:max-w-full

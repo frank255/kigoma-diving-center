@@ -1,353 +1,93 @@
 <template>
-  <section class="bg-gray-800 text-gray-100">
-    <div
-      class="
-        container
-        max-w-xl
-        p-6
-        py-12
-        mx-auto
-        space-y-24
-        lg:px-8 lg:max-w-7xl
-      "
-    >
-      <div>
-        <transition appear name="fade">
-          <h2
-            id="title"
-            class="
-              text-3xl
-              font-bold
-              tracking-tight
-              text-center
-              sm:text-5xl
-              text-[#A45C40]
-            "
-          >
-            Services That We Offer
-          </h2>
-        </transition>
-      </div>
-      <div class="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
-        <div>
-          <h3
-            class="
-              text-2xl
-              font-bold
-              tracking-tight
-              sm:text-3xl
-              dark:text-gray-50
-            "
-          >
-            Scuba Diving
-          </h3>
-          <p class="mt-3 text-lg dark:text-gray-400">
-            Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam
-            regione ut, persius eripuit quo id. Sit te euismod tacimates.
-          </p>
-          <div class="mt-12 space-y-12">
-            <div class="flex">
-              <div class="flex-shrink-0">
-                <div
-                  class="
-                    flex
-                    items-center
-                    justify-center
-                    w-12
-                    h-12
-                    rounded-md
-                    dark:bg-violet-400 dark:text-gray-900
-                  "
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    class="w-7 h-7"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M5 13l4 4L19 7"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-              <div class="ml-4">
-                <h4 class="text-lg font-medium leading-6 dark:text-gray-50">
-                  Per ei quaeque sensibus
-                </h4>
-                <p class="mt-2 dark:text-gray-400">
-                  Ex usu illum iudico molestie. Pro ne agam facete
-                  mediocritatem, ridens labore facete mea ei. Pro id apeirian
-                  dignissim.
-                </p>
-              </div>
-            </div>
-            <div class="flex">
-              <div class="flex-shrink-0">
-                <div
-                  class="
-                    flex
-                    items-center
-                    justify-center
-                    w-12
-                    h-12
-                    rounded-md
-                    dark:bg-violet-400 dark:text-gray-900
-                  "
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    class="w-7 h-7"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M5 13l4 4L19 7"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-              <div class="ml-4">
-                <h4 class="text-lg font-medium leading-6 dark:text-gray-50">
-                  Cu imperdiet posidonium sed
-                </h4>
-                <p class="mt-2 dark:text-gray-400">
-                  Amet utinam aliquando ut mea, malis admodum ocurreret nec et,
-                  elit tibique cu nec. Nec ex maluisset inciderint, ex quis.
-                </p>
-              </div>
-            </div>
-            <div class="flex">
-              <div class="flex-shrink-0">
-                <div
-                  class="
-                    flex
-                    items-center
-                    justify-center
-                    w-12
-                    h-12
-                    rounded-md
-                    dark:bg-violet-400 dark:text-gray-900
-                  "
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    class="w-7 h-7"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M5 13l4 4L19 7"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-              <div class="ml-4">
-                <h4 class="text-lg font-medium leading-6 dark:text-gray-50">
-                  Nulla omittam sadipscing mel ne
-                </h4>
-                <p class="mt-2 dark:text-gray-400">
-                  At sed possim oporteat probatus, justo graece ne nec, minim
-                  commodo legimus ut vix. Ut eos iudico quando soleat, nam
-                  modus.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div aria-hidden="true" class="mt-10 lg:mt-0">
-          <img
-            src="https://source.unsplash.com/random/360x480"
-            alt=""
-            class="mx-auto rounded-lg shadow-lg dark:bg-gray-500"
-          />
-        </div>
-      </div>
-      <div>
-        <div class="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
-          <div class="lg:col-start-2">
-            <h3
-              class="
-                text-2xl
-                font-bold
-                tracking-tight
-                sm:text-3xl
-                dark:text-gray-50
-              "
-            >
-              Snorkeling
-            </h3>
-            <p class="mt-3 text-lg dark:text-gray-400">
-              Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te
-              latine theophrastus. Ea his tale nibh dissentias, mei exerci
-              tamquam euripidis cu.
-            </p>
-            <div class="mt-12 space-y-12">
-              <div class="flex">
-                <div class="flex-shrink-0">
-                  <div
-                    class="
-                      flex
-                      items-center
-                      justify-center
-                      w-12
-                      h-12
-                      rounded-md
-                      dark:bg-violet-400 dark:text-gray-900
-                    "
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      class="w-7 h-7"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M5 13l4 4L19 7"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div class="ml-4">
-                  <h4 class="text-lg font-medium leading-6 dark:text-gray-50">
-                    Cibo augue offendit has ad
-                  </h4>
-                  <p class="mt-2 dark:text-gray-400">
-                    An per velit appellantur, ut utinam minimum nominavi sit,
-                    odio nostro habemus ne nec. Ne sonet regione contentiones
-                    est.
-                  </p>
-                </div>
-              </div>
-              <div class="flex">
-                <div class="flex-shrink-0">
-                  <div
-                    class="
-                      flex
-                      items-center
-                      justify-center
-                      w-12
-                      h-12
-                      rounded-md
-                      dark:bg-violet-400 dark:text-gray-900
-                    "
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      class="w-7 h-7"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M5 13l4 4L19 7"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div class="ml-4">
-                  <h4 class="text-lg font-medium leading-6 dark:text-gray-50">
-                    At eum ferri luptatum lobortis
-                  </h4>
-                  <p class="mt-2 dark:text-gray-400">
-                    Te per quidam maiorum ocurreret, etiam delicatissimi usu ad.
-                    Ne has quod periculis. Te sit primis iisque efficiantur.
-                  </p>
-                </div>
-              </div>
-              <div class="flex">
-                <div class="flex-shrink-0">
-                  <div
-                    class="
-                      flex
-                      items-center
-                      justify-center
-                      w-12
-                      h-12
-                      rounded-md
-                      dark:bg-violet-400 dark:text-gray-900
-                    "
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      class="w-7 h-7"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M5 13l4 4L19 7"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div class="ml-4">
-                  <h4 class="text-lg font-medium leading-6 dark:text-gray-50">
-                    Dicunt verterem evertitur eu sea
-                  </h4>
-                  <p class="mt-2 dark:text-gray-400">
-                    Audire principes rationibus eam an, autem nominavi luptatum
-                    per te. Sumo fabulas vim eu, sonet saperet eleifend ut vix.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
-            <img
-              src="https://source.unsplash.com/random/361x481"
-              alt=""
-              class="mx-auto rounded-lg shadow-lg dark:bg-gray-500"
-            />
-          </div>
-        </div>
-      </div>
+<section class="text-gray-100 bg-gray-800  body-font">
+  <div class="container px-5 py-10 mx-auto">
+    <div class="text-center mb-20">
+      <h1 class="title-font text-3xl mt-4 font-bold tracking-tight text-center sm:text-5xl text-[#A45C40] mb-4">Services That We Offer</h1>
     </div>
-  </section>
+    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div class="w-40 h-40 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+          <img class="rounded-full w-40 h-40" src="src/assets/swimming-goggles.jpeg" alt="" srcset="">
+        </div>
+        <div class="flex-grow">
+          <h2 class="text-[#A45C40] text-2xl title-font font-medium mb-3">Diving</h2>
+          <p class="leading-relaxed text-base">Enjoy snorkeling under the caves, on localized cichlids species and spotted areas like Jacobson beach,Temborock,Kahela point, majimengi Bigrock, aquariumspot. your snorkeling/ excursion will be guided by professional snorkeler and scuba diver. will show you the extreme diverse and beautifully colored fish and other unique organism of the Lake Tanganyika with incredible visibility up to 18 meters.</p>
+          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <div class="w-40 h-40 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+          <img class="rounded-full w-40 h-40" src="src/assets/swimming-goggles.jpeg" alt="" srcset="">
+        </div>
+        <div class="flex-grow">
+          <h2 class="text-[#A45C40] text-2xl title-font font-medium mb-3">Snorkling</h2>
+          <p class="leading-relaxed text-base">Enter the magical underwater world of Africa’s oldest and deepest lake your guide provides you with an opportunity to go where few people have gone before. Enjoy lake Tanganyika’s fabulous Clearwater environment and meet its diverse inhabitants including hundreds of species of colorful cichlids fish that are found nowhere else in the world.</p> <br>
+          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+         <div class="w-40 h-40 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+          <img class="rounded-full w-40 h-40" src="src/assets/swimming-goggles.jpeg" alt="" srcset="">
+        </div>
+      
+        <div class="flex-grow">
+          <h2 class="text-[#A45C40] text-2xl title-font font-medium mb-3">The Lake Escape</h2>
+          <p class="leading-relaxed text-base">This full-day trip is the perfect getaway for you. Our traditional wooden vessel takes you out for boat cruise and snorkeling, after that enjoy your barbeque on the Jacobson beach! With low good whether condition we can visit the beautiful cichlids and sad dwellers around the lake. The white sandy beach and clear blue water make your pictures look like the most perfect postcard.</p>
+          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="md:flex justify-center">
+          <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div class="w-40 h-40 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+          <img class="rounded-full w-40 h-40" src="src/assets/swimming-goggles.jpeg" alt="" srcset="">
+        </div>
+        <div class="flex-grow">
+          <h2 class="text-[#A45C40] text-2xl title-font font-medium mb-3">Boat ride to Mahale National Park</h2>
+          <p class="leading-relaxed text-base">Its 10 hrs. trip by boat depending on the weather condition, on the rough weather may take up to 12hrs.enjoy the beauty of the Lake Tanganyika while taking the ride along the shore. meet with artisanal fishermen handling up their catch from the everyday activities.Mahale Mountains National Park lies on the shores of Lake Tanganyika in Kigoma Region, Tanzania. it is one of only two protected areas for chimpanzees in the country.</p>
+          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div class="w-40 h-40 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+          <img class="rounded-full w-40 h-40" src="src/assets/swimming-goggles.jpeg" alt="" srcset="">
+        </div>
+        <div class="flex-grow">
+          <h2 class="text-[#A45C40] text-2xl title-font font-medium mb-3">Boat ride to Gombe National Park</h2>
+          <p class="leading-relaxed text-base">its day trip 2hrs going and 2hrs back to kigoma town. Gombewilderness worth a year round visit; enabling you to cruise along part of the historical inquisitiveness way back in the 19th century when Livingstone and Stanley searched the source of River Nile. Rainy season is the best chimpanzee sporting while the green vegetation blooms providing an astonishing scenic view and waterfalls are at the best (Novemberto Mid-May) while dry season provides a chance for best photo taking,short and long hike (May to October)</p>
+          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      </div>
+    
+    </div>
+    <button class="flex mx-auto mt-16 text-white  bg-gradient-to-r from-violet-500 to-fuchsia-500 border-0 py-2 px-8 focus:outline-none  rounded text-lg">Book Now</button>
+  </div>
+  
+</section>
 </template>
 
-<script setup>
-import { onMounted } from "vue";
-import AOS from "aos";
+<script>
 
-onMounted(() => {
-  AOS.init();
-});
 </script>
 
-<style>
-.fade-enter-from {
-  opacity: 0;
-}
-.fade-enter-active {
-  transition: opacity 3s ease;
-}
-.fade-leave-to {
-  opacity: 0;
-}
-.fade-leave-active {
-  transition: opacity 3s ease;
-}
-</style>
+

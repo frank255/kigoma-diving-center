@@ -11,7 +11,7 @@ import Hero from "../components/Hero.vue";
 <template>
 	<Hero/>
   <Services id="services"/>
-  <Aboutus id="aboutus"/>
+  <Aboutus/>
   <Team id="team"/>
   <Testimonials id="testimonials"/>
   <Contacts id="contacts"/>

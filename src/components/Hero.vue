@@ -108,12 +108,12 @@
 </template>
 
 <script setup>
-// import { onMounted } from "vue";
-// import AOS from "aos";
+import { onMounted } from "vue";
+import AOS from "aos";
 
-// onMounted(() => {
-//   AOS.init();
-// });
+onMounted(() => {
+  AOS.init();
+});
 </script>
 
 <style>
