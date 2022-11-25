@@ -43,7 +43,7 @@
           </li>
           <li>
             <a
-              href="#services"
+              href="/services"
               class="
                 font-medium
                 tracking-wide
@@ -151,7 +151,6 @@
                 bg-gradient-to-r
                 from-violet-500
                 to-fuchsia-500
-                hover:bg-deep-purple-accent-700
                 focus:shadow-outline focus:outline-none
               "
             >
@@ -266,7 +265,7 @@
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/services"
                       class="
                         font-medium
                         tracking-wide
@@ -280,7 +279,7 @@
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="#aboutus"
                       class="
                         font-medium
                         tracking-wide

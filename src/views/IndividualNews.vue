@@ -4,6 +4,7 @@
       class="
         px-4
         py-16
+        m-16
         mx-auto
         sm:max-w-xl
         md:max-w-full
