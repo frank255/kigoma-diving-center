@@ -19,7 +19,6 @@
         mx-auto
         sm:max-w-xl
         md:max-w-full
-        
         lg:max-w-screen-xl
         md:px-24
         lg:px-8
@@ -57,7 +56,7 @@
           </li>
           <li>
             <a
-              href="#aboutus"
+              href="/#aboutus"
               class="
                 font-medium
                 tracking-wide
@@ -71,7 +70,7 @@
           </li>
           <li>
             <a
-              href="#team"
+              href="/#team"
               class="
                 font-medium
                 tracking-wide
@@ -107,7 +106,7 @@
           </li>
           <li>
             <a
-              href="#contacts"
+              href="/#contacts"
               class="
                 font-medium
                 tracking-wide
@@ -121,7 +120,7 @@
           </li>
           <li>
             <a
-              href="#testimonials"
+              href="/#testimonials"
               class="
                 font-medium
                 tracking-wide
@@ -279,7 +278,7 @@
                   </li>
                   <li>
                     <a
-                      href="#aboutus"
+                      href="/#aboutus"
                       class="
                         font-medium
                         tracking-wide
@@ -307,7 +306,7 @@
                   </li>
                   <li>
                     <a
-                      href="#team"
+                      href="/#team"
                       class="
                         font-medium
                         tracking-wide
@@ -335,7 +334,7 @@
                   </li>
                   <li>
                     <a
-                      href="#testimonials"
+                      href="/#testimonials"
                       class="
                         font-medium
                         tracking-wide
@@ -349,7 +348,7 @@
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/booking"
                       class="
                         inline-flex
                         items-center
@@ -371,7 +370,7 @@
                         focus:shadow-outline focus:outline-none
                       "
                     >
-                      Book Now
+                      Booking
                     </a>
                   </li>
                 </ul>

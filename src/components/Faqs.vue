@@ -1,5 +1,5 @@
 <template>
-    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div id="faqs" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
         <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
@@ -29,61 +29,44 @@
           <div class="space-y-8">
             <div>
               <p class="mb-4 text-xl font-medium">
-                The quick, brown fox jumps over a lazy dog?
+                Where are we located?
               </p>
               <p class="text-gray-700">
-                Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds.<br />
-                <br />
-                Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+                The Kigoma Diving and snorkeling center is located in Kigoma region ,Tanzania near the Kigoma power station Within Aqualodge compound.
               </p>
             </div>
             <div>
               <p class="mb-4 text-xl font-medium">
-                The first mate and his Skipper too will do?
+                How is it accessible?
               </p>
               <p class="text-gray-700">
-                Well, the way they make shows is, they make one show. That show's called a pilot.<br />
-                <br />
-                Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs.Some don't, become nothing. She
-                starred in one of the ones that became nothing.
+                Both way ,by flight from other party of th world to Kigoma Airport,then take a 45min ride or drive to the Aqualodge where our office is situated
               </p>
             </div>
             <div>
               <p class="mb-4 text-xl font-medium">
-                Is the Space Pope reptilian!?
+                Possible to book both accommodation and diving/snorkeling experience?
               </p>
               <p class="text-gray-700">
-                A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.
+                Very possible,please advise your coming date and plan and our team will be delighted to plan everything for you.
               </p>
             </div>
           </div>
           <div class="space-y-8">
             <div>
               <p class="mb-4 text-xl font-medium">
-                How much money you got on you?
+                How I can pay/mode of payment?
               </p>
               <p class="text-gray-700">
-                The first mate and his Skipper too will do their very best to make the others comfortable in their tropic island nest.<br />
-                <br />
-                Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.
+                Currently both by card and cash ,accepted card are masters card,visa and American Express
               </p>
             </div>
             <div>
               <p class="mb-4 text-xl font-medium">
-                Galaxies Orion's sword globular star cluster?
+                Do I need to bring the divingbor snorkeling gears with you?
               </p>
               <p class="text-gray-700">
-                A business big enough that it could be listed on the NASDAQ goes belly up. Disappears!<br />
-                <br />
-                It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.
-              </p>
-            </div>
-            <div>
-              <p class="mb-4 text-xl font-medium">
-                When has justice ever been as simple as a rule book?
-              </p>
-              <p class="text-gray-700">
-                This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.
+                Not necessarily,we have plenty of gear for you to enjoy your water activities,however we are flexible for you to bring and use your own gears as far as they are in good working conditions.
               </p>
             </div>
           </div>

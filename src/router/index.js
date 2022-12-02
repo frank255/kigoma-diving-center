@@ -5,6 +5,7 @@ import News from '../views/News.vue'
 import IndividualNews from '../views/IndividualNews.vue'
 import Booking from '../views/Booking.vue'
 import Services from '../views/Services.vue'
+import Form from '../views/Form.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -27,6 +28,11 @@ const router = createRouter({
       path: '/booking',
       name: 'booking',
       component: Booking
+    },
+    {
+      path: '/Form',
+      name: 'form',
+      component: Form
     },
     {
       path: '/news/:id',

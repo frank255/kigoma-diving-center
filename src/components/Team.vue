@@ -1,5 +1,5 @@
 <template>
-	<section class="py-6 bg-gray-800 text-gray-100">
+	<section id="team" class="py-6 bg-gray-800 text-gray-100">
 		<div class="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
 			<p class="p-2 text-3xl sm:text-5xl font-medium tracking-wider text-center  text-[#A45C40]">Meet Our team</p>
 			<h1 class="text-4xl font-bold leading-none text-center sm:text-5xl">The talented people behind the scenes</h1>

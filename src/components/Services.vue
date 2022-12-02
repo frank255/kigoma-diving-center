@@ -79,15 +79,15 @@
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </a>
-
         </div>
       </div>
       </div>
     
     </div>
-    <button class="flex mx-auto mt-16 text-white  bg-gradient-to-r from-violet-500 to-fuchsia-500 border-0 py-2 px-8 focus:outline-none  rounded text-lg">Book Now</button>
+    <a href="/booking">
+      <button class="flex mx-auto mt-16 text-white  bg-gradient-to-r from-violet-500 to-fuchsia-500 border-0 py-2 px-8 focus:outline-none  rounded text-lg">Book Now</button>
+    </a>
   </div>
-  
 </section>
 </template>
 

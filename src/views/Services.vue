@@ -4,7 +4,7 @@
             <img class="w-16 h-16 m-2" src="src/assets/settings.gif" alt="gear">
             <span class="text-3xl md:text-4xl md:font-extrabold text-[#A45C40]">Our Services</span>
           </div>
-      <div class="grid gap-10 mb-16 lg:grid-cols-2" v-for="service in services" :key="service.id">
+      <div class="grid gap-10 mb-16 border-b-2 p-4 border-gray-200 shadow-lg lg:grid-cols-2" v-for="service in services" :key="service.id">
         <div class="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
           
           <div class="max-w-xl mb-6">
@@ -60,7 +60,6 @@ export default {
       })
       .catch((error) => {
         console.log(error);
-        this.errorMsg = "testimonials not available";
       });
   },
 };

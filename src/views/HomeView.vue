@@ -6,14 +6,15 @@ import Faqs from "../components/Faqs.vue";
 import Team from "../components/Team.vue";
 import Testimonials from "../components/Testimonials.vue";
 import Hero from "../components/Hero.vue";
-
 </script>
 <template>
-	<Hero/>
-  <Services id="services"/>
-  <Aboutus/>
-  <Team id="team"/>
-  <Testimonials id="testimonials"/>
-  <Contacts id="contacts"/>
-  <Faqs id="faqs"/>
+  <div class=" sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+    <Hero />
+    <Services />
+    <Aboutus />
+    <Team />
+    <Testimonials />
+    <Contacts />
+    <Faqs />
+  </div>
 </template>

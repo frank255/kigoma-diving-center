@@ -1,9 +1,13 @@
 <template>
+   <h3 class="flex mt-40 items-center">
+    <span aria-hidden="true" class="grow bg-gray-200 rounded h-0.5"></span>
+    <span class="text-lg font-medium mx-3">Our Recent Activities</span>
+    <span aria-hidden="true" class="grow bg-gray-200 rounded h-0.5"></span>
+  </h3>
   <div
     class="
       px-4
       py-16
-      mt-20
       mx-auto
       sm:max-w-xl
       md:max-w-full
