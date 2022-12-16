@@ -1,53 +1,9 @@
 <template v-slot:content>
   <div class="mt-32 flex justify-end items-end mr-3">
-    <form>
-      <div class="flex">
-        <div class="relative">
-          <input
-            type="search"
-            id="search-dropdown"
-            class="
-              block
-              p-2.5
-              w-full
-              z-20
-              text-sm text-gray-900
-              bg-gray-50
-              rounded-lg
-              border-2 border-gray-300
-              focus:ring-blue-500 focus:border-blue-500
-              dark:bg-gray-700
-              dark:border-l-gray-700
-              dark:border-gray-600
-              dark:placeholder-gray-400
-              dark:text-white
-              dark:focus:border-blue-500
-            "
-            placeholder="Enter Booking code"
-          />
-          <button
-            type="submit"
-            class="
-              absolute
-              top-0
-              right-0
-              p-2.5
-              text-sm
-              font-medium
-              text-white
-              bg-gradient-to-r
-              from-cyan-500
-              to-blue-500
-              rounded-r-lg
-              border border-blue-700
-              hover:bg-blue-800
-              focus:ring-4 focus:outline-none focus:ring-blue-300
-              dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
-            "
-          >
+    <button class="top-0 right-0 p-2.5 flex text-sm font-medium text-white bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             <svg
               aria-hidden="true"
-              class="w-5 h-5"
+              class="w-7 h-7"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -60,11 +16,10 @@
                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
               ></path>
             </svg>
-            <span class="sr-only">Search</span>
-          </button>
-        </div>
-      </div>
-    </form>
+            <a href="/searchbooking">
+               <span class="text-white text-lg ml-2">Search for your booking</span>
+            </a>
+    </button>
   </div>
   <h3 class="flex mt-4 items-center my-8">
     <span aria-hidden="true" class="grow bg-gray-200 rounded h-0.5"></span>
@@ -133,7 +88,7 @@
               </li>
               <li class="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                   <div class="flex items-center pl-3">
-                      <input v-model="services" id="services" type="checkbox" value="The Lake Escape" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                      <input v-model="services" id="services" type="checkbox" value="The-Lake-Escape" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
                       <label for="services" class="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">The Lake Escape</label>
                   </div>
               </li>
@@ -177,7 +132,6 @@
         </div>
     </div>
 </form>
-
  </div>
 </template>
 
@@ -187,11 +141,10 @@ import { useToast } from "vue-toastification";
 
 export default {
   mounted(){
-  // Get toast interface
   const toast = useToast();
 return { toast }
   },
-  name: 'Form',
+  name: 'Booking',
   data() {
     return {
       step: 1,
@@ -240,7 +193,7 @@ return { toast }
             // this.$router.push({name: 'home'})
           setTimeout( () => this.$router.push({ path: '/'}), 10000);
           })
-    }
+    },
   }
 }
 </script>

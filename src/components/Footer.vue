@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900  bottom-0 left-0 right-0">
+  <div id="footer" class="bg-gray-900  bottom-0 left-0 right-0">
     <div class="px-4 pt-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div class="grid row-gap-10 mb-8 lg:grid-cols-6">
         <div class="md:max-w-md lg:col-span-2">
@@ -49,11 +49,12 @@
         </div>
         <div class="md:max-w-md mt-4 md:ml-10 lg:col-span-2">
           <span class="text-base font-medium tracking-wide text-gray-500">Subscribe for updates</span>
-          <form class="flex flex-col mt-4 md:flex-row">
+          <form @submit.prevent="handleSubmit" class="flex flex-col mt-4 md:flex-row">
             <input
               placeholder="Email"
               required=""
-              type="text"
+              type="email"
+              v-model="email"
               class="flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
             />
             <button
@@ -64,8 +65,7 @@
             </button>
           </form>
           <p class="mt-4 text-sm text-gray-500">
-            Bacon ipsum dolor amet short ribs pig sausage prosciuto chicken spare ribs salami.
-          </p>
+            Would you like to be the first to receive our news and events? please join us!          </p>
         </div>
       </div>
       <div class="flex flex-col justify-between pt-5 pb-10 border-t border-gray-400 sm:flex-row">
@@ -102,12 +102,41 @@
 </template>
 
 <script >
-export default  {
+import axios from "axios";
+import { useToast } from "vue-toastification";
+
+export default {
+  mounted(){
+  const toast = useToast();
+return { toast }
+  },
 name:'Footer',
 data(){
 return{
+  email:'',
   year:new Date().getFullYear()
 }
+},
+methods: {
+  handleSubmit(event){
+      axios.post('http://kigoma-diving-center-backend.test/api/subscribers',{email:this.email},
+       {
+          }).then(() => {
+            const fullname = this.fullname
+            let timerInterval
+                this.$swal.fire({
+                  icon: 'success',
+                  html: '“Thanks for Subscribing"',
+                  timer: 1200,
+                  timerProgressBar: true,
+                  willClose: () => {
+                    clearInterval(timerInterval)
+                  }
+                })
+          }).then((result)=>{
+          event.target.reset();
+          })
+    }
 }
 }
 </script>

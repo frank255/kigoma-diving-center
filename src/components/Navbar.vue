@@ -292,7 +292,7 @@
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/#contacts"
                       class="
                         font-medium
                         tracking-wide

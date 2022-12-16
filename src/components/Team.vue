@@ -4,7 +4,7 @@
 			<p class="p-2 text-3xl sm:text-5xl font-medium tracking-wider text-center  text-[#A45C40]">Meet Our team</p>
 			<h1 class="text-4xl font-bold leading-none text-center sm:text-5xl">The talented people behind the scenes</h1>
 			<div class="flex flex-row flex-wrap-reverse justify-center mt-8">
-				<div class="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800" data-popover-target="popover-image" data-popover-trigger="hover" v-for="team in teams" :key="team.id">
+				<div class="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800" v-for="team in teams" :key="team.id">
 					<img alt="" class="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full dark:bg-gray-500" :src="team.media[0].preview_url">
 					<div class="flex-1 my-4">
 						<p class="text-xl font-semibold leading-snug">{{team.fullname}}</p>
@@ -32,28 +32,11 @@
 						</svg>
 						</a>
 					</div>
-					<div data-popover id="popover-image + {{team.id}}" role="tooltip" class="absolute z-10 invisible inline-block text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 w-96 dark:text-gray-400 dark:bg-gray-800 dark:border-gray-600">
-					<div class="grid grid-cols-5">
-						<div class="col-span-3 p-3">
-							<div class="space-y-2">
-								<h3 class="font-semibold text-gray-900 dark:text-white">About {{team.fullname}}</h3>
-								<p>Italy is located in the middle of the Mediterranean Sea, in Southern Europe it is also considered part of Western Europe. A unitary parliamentary republic with Rome as its capital and largest city.</p>
-								<a href="#" class="flex items-center font-medium text-blue-600 dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700">Read more <svg class="w-4 h-4 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg></a>
-							</div>
-						</div>
-						<img :src="team.media[0].preview_url" class="h-full col-span-2" alt="Italy map" />
-					</div>
-             <div data-popper-arrow></div>
-            </div>
 				</div>
 			</div>
-
-			
-
 		</div>
 	</section>
 </template>
-
 <script>
 import axios from "axios";
 import { comment } from "postcss";
@@ -69,13 +52,8 @@ export default {
     axios
       .get("http://kigoma-diving-center-backend.test/api/team")
       .then((response) => {
-        console.log(response.data);
         this.teams = response.data;
       })
-      .catch((error) => {
-        console.log(error);
-        this.errorMsg = "testimonials not available";
-      });
   },
 };
 </script>

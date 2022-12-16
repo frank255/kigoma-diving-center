@@ -6,7 +6,7 @@
     <div class=" flex flex-col items-center px-5 py-8 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
             <div class="w-full mx-auto">
-               <p class="text-center flex-grow md:text-lg">
+               <p class="text-center flex-grow md:text-lg" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
                 The Kigoma dive and snorkeling center is the collective of the oldest and experienced divers of the Lake Tanganyika for more than 30yrs with most reputable dive operation in Kigoma region.
                 Dating back to 2009, many of tourists have been delighted by the snorkeling, boat tours and scuba diving services offered by these divers as the result of the outstanding team we have today.
                 In 2022 Msafiri George, Tanzanian recognized the passion of the service and hard works of these divers, with his passion to aquatic life and sustaining alternative source of income to the community 
@@ -17,7 +17,7 @@
         </div>
         <!-- Features Section: Boxes with Icons -->
     <div class="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-16">
-      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"  data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500" >
         <div class="p-5 bg-white border-2 border-white shadow-lg hover:border-blue-400 transition rounded-lg">
              <img src="src/assets/quality.png" alt="badge" class="rounded w-14 h-14 m-2">
           <h4 class="text-lg font-bold mb-2">
@@ -47,7 +47,7 @@
   <!-- END Features Section: Boxes with Icons -->
     </div>
      <!-- Page Header Section: Simple -->
-  <div class="bg-white">
+  <div class="bg-white"  data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
     <div class="container xl:max-w-7xl mx-auto px-4 mb-20 lg:px-8">
       <div class="text-center">
         <h2 class="text-xl md:text-xl font-extrabold mb-4">
@@ -61,7 +61,7 @@
   <!-- END Page Header Section: Simple -->
   <div class="bg-white">
     <div class="container xl:max-w-7xl mx-auto px-4 mb-10 lg:px-8">
-      <div class="text-center">
+      <div class="text-center"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500">
         <h2 class="text-xl md:text-xl font-extrabold mb-4">
           Scuba Gears
         </h2>
@@ -69,7 +69,7 @@
           Our scuba gears selection consists of</h3>
       </div>
     </div>
-    <div class="flex flex-wrap lg:w-4/5 sm:mx-auto mb-10 -mx-2">
+    <div class="flex flex-wrap lg:w-4/5 sm:mx-auto mb-10 -mx-2"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
@@ -167,6 +167,12 @@
 </template>
 
 <script>
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+  AOS.init();
+});
 export default {
   name: "Aboutus",
 };

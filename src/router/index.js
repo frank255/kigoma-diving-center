@@ -4,8 +4,8 @@ import Notfound from '../views/Notfound.vue'
 import News from '../views/News.vue'
 import IndividualNews from '../views/IndividualNews.vue'
 import Booking from '../views/Booking.vue'
+import SearchBooking from '../views/SearchBooking.vue'
 import Services from '../views/Services.vue'
-import Form from '../views/Form.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -30,9 +30,9 @@ const router = createRouter({
       component: Booking
     },
     {
-      path: '/Form',
-      name: 'form',
-      component: Form
+      path: '/searchbooking',
+      name: 'SearchBooking',
+      component: SearchBooking
     },
     {
       path: '/news/:id',

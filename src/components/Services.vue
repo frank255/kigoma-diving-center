@@ -4,8 +4,8 @@
     <div class="text-center mb-20">
       <h1 class="title-font text-3xl mt-4 font-bold tracking-tight text-center sm:text-5xl text-[#A45C40] mb-4">Services That We Offer</h1>
     </div>
-    <div class="flex flex-wrap sm:-m-4 -mx-4  -mt-4 md:space-y-0 space-y-6">
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+    <div class="flex flex-wrap sm:-m-4 -mx-4  -mt-4 md:space-y-0 space-y-6" >
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500">
           <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
           <img class="rounded-full w-20 h-20" src="src/assets/scuba.png" alt="" srcset="">
         </div>
@@ -20,7 +20,7 @@
 
         </div>
       </div>
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="510">
         <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
           <img class="rounded-full w-20 h-20" src="src/assets/snorkling.png" alt="" srcset="">
         </div>
@@ -35,7 +35,7 @@
 
         </div>
       </div>
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="520">
          <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
           <img class="rounded-full w-20 h-20" src="src/assets/water-jet-ski.gif" alt="" srcset="">
         </div>
@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="md:flex justify-center md:space-x-20">
-          <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="530">
           <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
           <img class="rounded-full w-20 h-20" src="src/assets/boat.gif" alt="" srcset="">
         </div>
@@ -67,7 +67,7 @@
 
         </div>
       </div>
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="540">
           <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
           <img class="rounded-full w-20 h-20" src="src/assets/boats.gif" alt="" srcset="">
         </div>
@@ -92,7 +92,12 @@
 </template>
 
 <script>
+import { onMounted } from "vue";
+import AOS from "aos";
 
+onMounted(() => {
+  AOS.init();
+});
 </script>
 
 

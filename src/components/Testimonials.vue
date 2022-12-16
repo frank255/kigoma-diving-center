@@ -38,13 +38,8 @@ export default {
     axios
       .get("http://kigoma-diving-center-backend.test/api/testimonials")
       .then((response) => {
-        console.log(response.data);
         this.comments = response.data;
       })
-      .catch((error) => {
-        console.log(error);
-        this.errorMsg = "testimonials not available";
-      });
   },
 };
 </script>

@@ -1,9 +1,9 @@
 <template>
-	<div id="contacts" class="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto  md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 bg-gray-800 text-gray-100">
-		<div class="grid grid-col-2 gap-4">
+	<div id="contacts" class="grid max-w-screen-xl  grid-cols-1 gap-8 px-8 py-40 mx-auto  md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 bg-gray-800 text-gray-100">
+		<div class="grid grid-col-2 gap-4" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
 			<div class="space-y-2">
-				<h2 class="text-4xl font-bold leading-tight lg:text-5xl">Let's talk!</h2>
-				<div class="dark:text-gray-400">Vivamus in nisl metus? Phasellus.</div>
+				<h2 class="text-4xl font-bold leading-tight lg:text-5xl">Let's chat!</h2>
+				<div class="text-gray-300">We'd love to hear from you, send us a message.</div>
 			</div>
             <div>
           <span class="text-4xl font-bold tracking-wide text-white">Social</span>
@@ -31,32 +31,60 @@
               </svg>
             </a>
           </div>
-          <p class="mt-4 text-sm text-gray-500">
-            Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken spare ribs salami.
+          <p class="mt-4 text-sm text-gray-300">
+            Join us on our social networks..!
           </p>
         </div>
 		</div>
-		<form  class="space-y-6 ng-untouched ng-pristine ng-valid">
+		<form @submit.prevent="handleSubmit"   class="space-y-6 ng-untouched ng-pristine ng-valid" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
 			<div>
 				<label for="name" class="text-sm">Full name</label>
-				<input id="name" type="text" placeholder="" class="w-full p-3 rounded dark:bg-gray-100">
+				<input v-model="fullname" id="name" type="text" placeholder="" class="w-full p-3 rounded text-black bg-gray-100">
 			</div>
 			<div>
 				<label for="email" class="text-sm">Email</label>
-				<input id="email" type="email" class="w-full p-3 rounded dark:bg-gray-100">
+				<input v-model="email" id="email" type="email" class="w-full p-3 rounded  text-black bg-gray-100">
 			</div>
 			<div>
 				<label for="message" class="text-sm">Message</label>
-				<textarea id="message" rows="3" class="w-full p-3 rounded dark:bg-gray-100"></textarea>
+				<textarea v-model="message" id="message" rows="3" class="w-full p-3 rounded  text-black bg-gray-100"></textarea>
 			</div>
-			<button type="submit" class="w-full p-3 text-sm font-bold tracking-wide uppercase rounded bg-gradient-to-r from-violet-500 to-fuchsia-500 dark:text-gray-900">Send Message</button>
+			<button  type="submit" class="w-full p-3 text-sm font-bold tracking-wide uppercase rounded bg-gradient-to-r from-violet-500 to-fuchsia-500 dark:text-gray-900">Send Message</button>
 		</form>
 	</div>
 </template>
 
 <script>
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+  AOS.init();
+});
 export default {
-name:'Contacts'
+name:'Contacts',
+data(){
+  return {
+    fullname: '',
+    email: '',
+    message: '',
+  }
+},
+methods:{
+  handleSubmit(){
+    Email.send({
+    Host : "smtp.mailtrap.io",
+    Username : "31d77f913a21ba",
+    Password : "80d909bd1eec2c",
+    To : 'info@kdsc.com',
+    From : this.email,
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+}
+}
 }
 </script>
 

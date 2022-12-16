@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="max-w-screen-xl sm:mx-auto">
-        <div class="grid grid-cols-1 gap-16 row-gap-8 lg:grid-cols-2">
+        <div class="grid grid-cols-1 gap-16 row-gap-8 lg:grid-cols-2" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500">
           <div class="space-y-8">
             <div>
               <p class="mb-4 text-xl font-medium">
@@ -76,6 +76,12 @@
   </template>
 
 <script>
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+  AOS.init();
+});
 export default {
 name:'Faqs',
 }
