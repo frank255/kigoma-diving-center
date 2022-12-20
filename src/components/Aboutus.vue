@@ -19,7 +19,7 @@
     <div class="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-16">
       <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"  data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500" >
         <div class="p-5 bg-white border-2 border-white shadow-lg hover:border-blue-400 transition rounded-lg">
-             <img src="src/assets/quality.png" alt="badge" class="rounded w-14 h-14 m-2">
+             <img src="../assets/quality.png" alt="badge" class="rounded w-14 h-14 m-2">
           <h4 class="text-lg font-bold mb-2">
             Professionalism in diving
           </h4>
@@ -27,7 +27,7 @@
             Our dives are always led by PADI certified Divemasters, meanwhile our snorkelers' guests are accompanied in the water with at least one of our well trained and experienced snorkel guides.Limited group of 5 people per dive leader unless specified otherwise</p>
         </div>
         <div class="p-5 bg-white border-2 border-white shadow-lg hover:border-blue-400 transition rounded-lg">
-          <img src="src/assets/ship.png" alt="badge" class="rounded w-14 h-14 m-2">
+          <img src="../assets/ship.png" alt="badge" class="rounded w-14 h-14 m-2">
            <h4 class="text-lg font-bold mb-2">
             Our standard vessels
           </h4>
@@ -35,7 +35,7 @@
             We use the wooden power-driven vessel equipped with digital phones, life jackets, safety rings, first aid kits, and engines <br> Our team are trained on Emergency First Response CPR, First Aid and with refresher training being held twice per Anum to keep the team up to date with any changes.</p>
         </div>
         <div class="p-5 bg-white border-2 border-white shadow-lg hover:border-blue-400 transition  rounded-lg sm:col-span-2 lg:col-span-1">
-          <img src="src/assets/medical-insurance.gif" alt="badge" class="rounded w-14 h-14 m-2"> 
+          <img src="../assets/medical-insurance.gif" alt="badge" class="rounded w-14 h-14 m-2"> 
            <h4 class="text-lg font-bold mb-2">
             Water based Insurance
           </h4>

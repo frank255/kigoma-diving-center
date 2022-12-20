@@ -13,7 +13,7 @@
         <p class="text-2xl italic font-medium text-gray-900 dark:text-white">"{{ comment.comment }}"</p>
     </blockquote>
     <figcaption class="flex justify-center items-center mt-6 space-x-3">
-        <img class="w-10 h-10 rounded-full" src="src/assets/speech-bubble.gif" alt="profile picture">
+        <img class="w-10 h-10 rounded-full" src="../assets/speech-bubble.gif" alt="profile picture">
         <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
             <cite class="pr-3 font-medium text-gray-900 dark:text-white">{{comment.fullname}}</cite>
             <cite class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">{{ comment.title}}</cite>

@@ -1,7 +1,7 @@
 <template>
     <div class="px-4 py-16 mt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div class="flex items-center justify-start  mb-4 rounded-full bg-teal-accent-400">
-            <img class="w-16 h-16 m-2" src="src/assets/settings.gif" alt="gear">
+            <img class="w-16 h-16 m-2" src="../assets/settings.gif" alt="gear">
             <span class="text-3xl md:text-4xl md:font-extrabold text-[#A45C40]">Our Services</span>
           </div>
       <div class="grid gap-10 mb-16 border-b-2 p-4 border-gray-200 shadow-lg lg:grid-cols-2" v-for="service in services" :key="service.id">

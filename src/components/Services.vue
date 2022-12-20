@@ -7,7 +7,7 @@
     <div class="flex flex-wrap sm:-m-4 -mx-4  -mt-4 md:space-y-0 space-y-6" >
       <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500">
           <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <img class="rounded-full w-20 h-20" src="src/assets/scuba.png" alt="" srcset="">
+          <img class="rounded-full w-20 h-20" src="../assets/scuba.png" alt="" srcset="">
         </div>
         <div class="flex-grow mb-10">
           <h2 class="text-[#A45C40] text-2xl title-font font-medium mb-3">Diving</h2>
@@ -17,12 +17,11 @@
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </a>
-
         </div>
       </div>
       <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="510">
         <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <img class="rounded-full w-20 h-20" src="src/assets/snorkling.png" alt="" srcset="">
+          <img class="rounded-full w-20 h-20" src="../assets/snorkling.png" alt="" srcset="">
         </div>
         <div class="flex-grow mb-10">
           <h2 class="text-[#A45C40] text-2xl title-font font-medium mb-3">Snorkling</h2>
@@ -37,7 +36,7 @@
       </div>
       <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="520">
          <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <img class="rounded-full w-20 h-20" src="src/assets/water-jet-ski.gif" alt="" srcset="">
+          <img class="rounded-full w-20 h-20" src="../assets/water-jet-ski.gif" alt="" srcset="">
         </div>
       
         <div class="flex-grow mb-10">
@@ -54,7 +53,7 @@
       <div class="md:flex justify-center md:space-x-20">
           <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="530">
           <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <img class="rounded-full w-20 h-20" src="src/assets/boat.gif" alt="" srcset="">
+          <img class="rounded-full w-20 h-20" src="../assets/boat.gif" alt="" srcset="">
         </div>
         <div class="flex-grow mb-2">
           <h2 class="text-[#A45C40] text-2xl title-font font-medium mb-3">Boat ride to Mahale National Park</h2>
@@ -69,7 +68,7 @@
       </div>
       <div class="p-4 md:w-1/3 flex flex-col text-center items-center"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="540">
           <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <img class="rounded-full w-20 h-20" src="src/assets/boats.gif" alt="" srcset="">
+          <img class="rounded-full w-20 h-20" src="../assets/boats.gif" alt="" srcset="">
         </div>
         <div class="flex-grow mb-2">
           <h2 class="text-[#A45C40] text-2xl title-font font-medium mb-3">Boat ride to Gombe National Park</h2>
