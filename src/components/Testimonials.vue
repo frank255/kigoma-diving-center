@@ -36,7 +36,7 @@ export default {
   },
   mounted() {
     axios
-      .get("https://5f6c-197-250-100-86.eu.ngrok.io/api/testimonials")
+      .get("http://kigoma-diving-center-backend.test/api/testimonials")
       .then((response) => {
         this.comments = response.data;
       })
