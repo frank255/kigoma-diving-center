@@ -1,7 +1,7 @@
 <template>
  <!-- component -->
 <section class="mt-10 pt-24 pb-6 bg-white">
-    <div class="px-12 mx-auto max-w-7xl">
+    <div class="px-2 md:px-12 mx-auto max-w-7xl">
         <div class="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center"
         data-aos="slide-up"
         data-aos-duration="1500"

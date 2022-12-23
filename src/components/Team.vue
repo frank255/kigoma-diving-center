@@ -1,8 +1,8 @@
 <template>
 	<section id="team" class="py-6 bg-gray-800 text-gray-100">
 		<div class="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
-			<p class="p-2 text-3xl sm:text-5xl font-medium tracking-wider text-center  text-[#A45C40]">Meet Our team</p>
-			<h1 class="text-4xl font-bold leading-none text-center sm:text-5xl">The talented people behind the scenes</h1>
+			<p class="p-4 text-3xl sm:text-5xl font-medium tracking-wider text-center  text-[#A45C40]">Meet Our team</p>
+			<h1 class="text-4xl mt-4 font-bold leading-none text-center sm:text-5xl">The talented people behind the scenes</h1>
 			<div class="flex flex-row flex-wrap-reverse justify-center mt-8">
 				<div class="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800" v-for="team in teams" :key="team.id">
 					<img alt="" class="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full dark:bg-gray-500" :src="team.media[0].preview_url">

@@ -1,5 +1,5 @@
 <template>
- <section id="aboutus">
+ <section id="aboutus" class="container px-5 py-10 mx-auto overflow-hidden">
   <div class="text-center mt-10 mb-4">
       <h1 class="title-font text-3xl mt-4 font-bold tracking-tight text-center sm:text-5xl text-[#A45C40] mb-4">About us</h1>
     </div>

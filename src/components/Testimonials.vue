@@ -1,5 +1,5 @@
 <template>
-  <section id="testimonials" class="my-8">
+  <section id="testimonials" class="my-8 mx-1">
     <div class=" container mx-auto  flex flex-col  items-center  pb-6 mb-4 md:p-10 md:px-12" >
       <h1
         class=" text-3xl sm:text-5xl font-semibold leading-none text-[#A45C40] text-center"
