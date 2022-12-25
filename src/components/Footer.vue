@@ -119,7 +119,7 @@ return{
 },
 methods: {
   handleSubmit(event){
-      axios.post('http://kigoma-diving-center-backend.test/api/subscribers',{email:this.email},
+      axios.post('https://kigomadivingcenter.x10.mx/api/subscribers',{email:this.email},
        {
           }).then(() => {
             const fullname = this.fullname

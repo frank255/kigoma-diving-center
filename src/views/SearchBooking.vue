@@ -499,7 +499,7 @@ export default {
     handleEdit() {
       axios
         .put(
-          "http://kigomadivingcenter.x10.mx/api/bookings/" +
+          "https://kigomadivingcenter.x10.mx/api/bookings/" +
             this.booking[0].id,
           {
             fullname: this.fullname,
@@ -550,7 +550,7 @@ export default {
           if (result.isConfirmed) {
             axios
               .delete(
-                "http://kigomadivingcenter.x10.mx/api/bookings/" +
+                "https://kigomadivingcenter.x10.mx/api/bookings/" +
                   this.booking[0].id
               )
               .then(() => {
@@ -586,7 +586,7 @@ export default {
     searchBooking() {
       axios
         .get(
-          "http://kigomadivingcenter.x10.mx/api/search/" +
+          "https://kigomadivingcenter.x10.mx/api/search/" +
             this.booking_reference
         )
         .then((response) => {

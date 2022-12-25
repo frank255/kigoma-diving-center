@@ -54,7 +54,7 @@ export default {
   },
   mounted() {
     axios
-      .get("http://kigomadivingcenter.x10.mx/api/posts")
+      .get("https://kigomadivingcenter.x10.mx/api/posts")
       .then((response) => {
         console.log(response.data);
         this.posts = response.data;
