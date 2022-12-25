@@ -50,7 +50,7 @@ export default {
   },
   mounted() {
     axios
-      .get("http://kigoma-diving-center-backend.test/api/team")
+      .get("http://kigomadivingcenter.x10.mx/api/team")
       .then((response) => {
         this.teams = response.data;
       })

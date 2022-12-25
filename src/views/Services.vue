@@ -53,7 +53,7 @@ export default {
   },
   mounted() {
     axios
-      .get("http://kigoma-diving-center-backend.test/api/services")
+      .get("http://kigomadivingcenter.x10.mx/api/services")
       .then((response) => {
         console.log(response.data);
         this.services = response.data;

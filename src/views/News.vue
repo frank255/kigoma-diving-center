@@ -1,20 +1,11 @@
 <template>
-   <h3 class="flex mt-40 items-center">
+  <h3 class="flex mt-40 items-center">
     <span aria-hidden="true" class="grow bg-gray-200 rounded h-0.5"></span>
     <span class="text-lg font-medium mx-3">Our Recent Activities</span>
     <span aria-hidden="true" class="grow bg-gray-200 rounded h-0.5"></span>
   </h3>
   <div
-    class="
-      px-4
-      py-16
-      mx-auto
-      sm:max-w-xl
-      md:max-w-full
-      lg:max-w-screen-xl
-      md:px-24
-      lg:px-8 lg:py-20
-    "
+    class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
   >
     <div class="grid gap-5 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
       <div
@@ -37,7 +28,8 @@
             {{ post.content }}
           </p>
           <router-link
-            :to="{ name: 'IndividualNews', params: { id: post.id } }" class="text-sm font-medium text-blue-400"
+            :to="{ name: 'IndividualNews', params: { id: post.id } }"
+            class="text-sm font-medium text-blue-400"
           >
             read more
           </router-link>
@@ -62,14 +54,13 @@ export default {
   },
   mounted() {
     axios
-      .get("http://kigoma-diving-center-backend.test/api/posts")
+      .get("http://kigomadivingcenter.x10.mx/api/posts")
       .then((response) => {
         console.log(response.data);
         this.posts = response.data;
       })
       .catch((error) => {
         console.log(error);
-        this.errorMsg = "testimonials not available";
       });
   },
 };
