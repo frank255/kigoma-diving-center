@@ -414,7 +414,7 @@ export default {
     handleSubmit() {
       axios
         .post(
-          "https://kigomadivingcenter.x10.mx/api/bookings",
+          "https://kigoma-diving-center-backend-production.up.railway.app/api/bookings",
           {
             fullname: this.fullname,
             nationality: this.nationality,
