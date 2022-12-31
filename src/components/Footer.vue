@@ -29,19 +29,16 @@
             <p class="font-medium mt-4  tracking-wide text-gray-500">Other links</p>
             <ul class="mt-2 space-y-2">
               <li>
-                <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">Web</a>
+                <a href="https://www.windguru.cz/206995" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">Wind Guru</a>
               </li>
               <li>
-                <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">eCommerce</a>
+                <a href="https://dan.org/membership-%20insurance/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">Dan Insurance</a>
               </li>
               <li>
-                <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">Business</a>
+                <a href="https://wisuki.com/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">Wisuki</a>
               </li>
               <li>
-                <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">Entertainment</a>
-              </li>
-              <li>
-                <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">Portfolio</a>
+                <a href="https://frankilunga.vercel.app/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">Developer Portfolio</a>
               </li>
             </ul>
           </div>
