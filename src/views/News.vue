@@ -54,7 +54,7 @@ export default {
   },
   mounted() {
     axios
-      .get("https://kigoma-diving-center-backend-production.up.railway.app/api/posts")
+      .get("https://api.kigomadivingcenter.com/api/posts")
       .then((response) => {
         console.log(response.data);
         this.posts = response.data;

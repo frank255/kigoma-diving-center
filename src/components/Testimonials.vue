@@ -36,7 +36,7 @@ export default {
   },
   mounted() {
     axios
-      .get("https://kigoma-diving-center-backend-production.up.railway.app/api/testimonials")
+      .get("https://api.kigomadivingcenter.com/api/testimonials")
       .then((response) => {
         this.comments = response.data;
       })

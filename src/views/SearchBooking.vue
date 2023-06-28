@@ -499,7 +499,7 @@ export default {
     handleEdit() {
       axios
         .put(
-          "https://kigoma-diving-center-backend-production.up.railway.app/api/bookings/" +
+          "https://api.kigomadivingcenter.com/api/bookings/" +
             this.booking[0].id,
           {
             fullname: this.fullname,
@@ -550,7 +550,7 @@ export default {
           if (result.isConfirmed) {
             axios
               .delete(
-                "https://kigoma-diving-center-backend-production.up.railway.app/api/bookings/" +
+                "https://api.kigomadivingcenter.com/api/bookings/" +
                   this.booking[0].id
               )
               .then(() => {
@@ -586,7 +586,7 @@ export default {
     searchBooking() {
       axios
         .get(
-          "https://kigoma-diving-center-backend-production.up.railway.app/api/search/" +
+          "https://api.kigomadivingcenter.com/api/search/" +
             this.booking_reference
         )
         .then((response) => {

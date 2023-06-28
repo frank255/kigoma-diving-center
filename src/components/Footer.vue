@@ -116,7 +116,7 @@ return{
 },
 methods: {
   handleSubmit(event){
-      axios.post("https://kigoma-diving-center-backend-production.up.railway.app/api/subscribers",{email:this.email},
+      axios.post("https://api.kigomadivingcenter.com/api/subscribers",{email:this.email},
        {
           }).then(() => {
             let timerInterval
