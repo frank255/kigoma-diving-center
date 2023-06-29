@@ -16,7 +16,7 @@
         </div>
         <div class="flex">
           <p class="mr-1 text-gray-500">Email:</p>
-          <a href="mailto:gmsafiry@gmail.com" aria-label="Our email" title="Our email" class="transition-colors duration-300 text-gray-500 hover:text-deep-purple-800">gmsafiry@gmail.com</a>
+          <a href="mailto:resa@kigomadivingcenter.com" aria-label="Our email" title="Our email" class="transition-colors duration-300 text-gray-500 hover:text-deep-purple-800">resa@kigomadivingcenter.com</a>
         </div>
         <div class="flex">
           <p class="mr-1 text-gray-500">Address:</p>
