@@ -13,7 +13,7 @@
             <p class="px-0 mb-8 text-lg text-gray-600 md:text-xl lg:px-24">
               “Enter a magic underwater of African’s oldest and deepest freshwater
             lake,Meet inhabitant of Lake Tanganyika you will enjoy the fabulous
-            clean water in the pristine environment ”</p>
+            clean water in the pristine environment”</p>
             <!-- <div class="mb-4 space-x-0 md:space-x-2 md:mb-8">
                 <a href="/booking" class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-2xl sm:w-auto sm:mb-0">
                     Get Started
