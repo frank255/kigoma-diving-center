@@ -1,159 +1,85 @@
 <template>
   <div
-    class="
-      bg-gradient-to-r
-      from-cyan-500
-      to-blue-500
-      z-50
-      fixed
-      top-0
-      left-0
-      right-0
-    "
+    class="bg-gradient-to-r from-cyan-500 to-blue-500 z-50 fixed top-0 left-0 right-0"
   >
     <div
-      class="
-        px-4
-        py-5
-        container
-        mx-auto
-        sm:max-w-xl
-        md:max-w-full
-        lg:max-w-screen-xl
-        md:px-24
-        lg:px-8
-      "
+      class="px-4 py-5 container mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-4"
     >
       <div class="relative grid items-center grid-cols-2 lg:grid-cols-3">
-        <ul class="items-center hidden space-x-8 lg:flex">
+        <ul class="items-center hidden space-x-4 lg:flex">
           <li>
             <a
               href="/"
-              class="
-                font-medium
-                tracking-wide
-                text-gray-100
-                transition-colors
-                duration-200
-                hover:text-teal-accent-400
-              "
+              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >Home</a
             >
           </li>
           <li>
             <a
               href="/services"
-              class="
-                font-medium
-                tracking-wide
-                text-gray-100
-                transition-colors
-                duration-200
-                hover:text-teal-accent-400
-              "
+              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >Services</a
             >
           </li>
           <li>
             <a
               href="/#aboutus"
-              class="
-                font-medium
-                tracking-wide
-                text-gray-100
-                transition-colors
-                duration-200
-                hover:text-teal-accent-400
-              "
+              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >About us</a
             >
           </li>
           <li>
             <a
               href="/#team"
-              class="
-                font-medium
-                tracking-wide
-                text-gray-100
-                transition-colors
-                duration-200
-                hover:text-teal-accent-400
-              "
+              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >Our Team</a
+            >
+          </li>
+          <li>
+            <a
+              href="/booking"
+              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              >Dive & Stay</a
             >
           </li>
         </ul>
         <div class="w-full h-10">
           <a href="/" aria-label="Company" title="Company">
-            <img src="/src/assets/kigoma3.png" class="w-28 mx-auto h-28" />
+            <img
+              src="/src/assets/kigoma5.png"
+              class="w-28 mx-auto h-28 rounded-full"
+            />
           </a>
         </div>
 
-        <ul class="items-center hidden ml-auto space-x-8 lg:flex">
+        <ul class="items-center hidden ml-auto space-x-4 lg:flex">
           <li>
             <a
               href="/news"
-              class="
-                font-medium
-                tracking-wide
-                text-gray-100
-                transition-colors
-                duration-200
-                hover:text-teal-accent-400
-              "
+              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >News</a
             >
           </li>
           <li>
             <a
               href="/#contacts"
-              class="
-                font-medium
-                tracking-wide
-                text-gray-100
-                transition-colors
-                duration-200
-                hover:text-teal-accent-400
-              "
+              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >Contacts</a
             >
           </li>
           <li>
             <a
               href="/#testimonials"
-              class="
-                font-medium
-                tracking-wide
-                text-gray-100
-                transition-colors
-                duration-200
-                hover:text-teal-accent-400
-              "
+              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >Testimonials</a
             >
           </li>
           <li class="flex">
             <a
               href="/booking"
-              class="
-                inline-flex
-                items-center
-                justify-center
-                h-12
-                px-4
-                tracking-wide
-                text-white
-                transition
-                duration-200
-                rounded
-                shadow-md
-                bg-gradient-to-r
-                from-violet-500
-                to-fuchsia-500
-                focus:shadow-outline focus:outline-none
-              "
+              class="inline-flex items-center justify-center h-12 px-4 tracking-wide text-white transition duration-200 rounded shadow-md bg-gradient-to-r from-violet-500 to-fuchsia-500 focus:shadow-outline focus:outline-none"
             >
-              Booking
+              Book Now
               <span
                 class="flex items-center justify-center w-6 h-6 rounded-full"
               >
@@ -166,14 +92,7 @@
           <button
             aria-label="Open Menu"
             title="Open Menu"
-            class="
-              p-2
-              -mr-1
-              transition
-              duration-200
-              rounded
-              focus:outline-none focus:shadow-outline
-            "
+            class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline"
             @click="isMenuOpen = true"
           >
             <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -193,30 +112,14 @@
           </button>
           <div v-if="isMenuOpen" class="absolute top-0 left-0 w-full">
             <div
-              class="
-                p-5
-                bg-gradient-to-r
-                from-cyan-500
-                to-blue-500
-                border
-                rounded
-                shadow-sm
-                z-50
-              "
+              class="p-5 bg-gradient-to-r from-cyan-500 to-blue-500 border rounded shadow-sm z-50"
             >
               <div class="flex items-center justify-between mb-4">
                 <div>
                   <a href="/" class="inline-flex items-center">
-                    <img src="/src/assets/kigoma3.png" class="w-14 h-14" />
+                    <img src="/src/assets/kigoma5.png" class="w-14 h-14 rounded-full" />
                     <span
-                      class="
-                        ml-2
-                        text-xl
-                        font-bold
-                        tracking-wide
-                        text-gray-800
-                        uppercase
-                      "
+                      class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase"
                       >KDSC</span
                     >
                   </a>
@@ -225,16 +128,7 @@
                   <button
                     aria-label="Close Menu"
                     title="Close Menu"
-                    class="
-                      p-2
-                      -mt-2
-                      -mr-2
-                      transition
-                      duration-200
-                      rounded
-                      hover:bg-gray-200
-                      focus:bg-gray-200 focus:outline-none focus:shadow-outline
-                    "
+                    class="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                     @click="isMenuOpen = false"
                   >
                     <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -251,124 +145,63 @@
                   <li>
                     <a
                       href="/"
-                      class="
-                        font-medium
-                        tracking-wide
-                        text-gray-700
-                        transition-colors
-                        duration-200
-                        hover:text-deep-purple-accent-400
-                      "
+                      class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >Home</a
                     >
                   </li>
                   <li>
                     <a
                       href="/services"
-                      class="
-                        font-medium
-                        tracking-wide
-                        text-gray-700
-                        transition-colors
-                        duration-200
-                        hover:text-deep-purple-accent-400
-                      "
+                      class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >Services</a
                     >
                   </li>
                   <li>
                     <a
                       href="/#aboutus"
-                      class="
-                        font-medium
-                        tracking-wide
-                        text-gray-700
-                        transition-colors
-                        duration-200
-                        hover:text-deep-purple-accent-400
-                      "
+                      class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >About us</a
                     >
                   </li>
                   <li>
                     <a
                       href="/#contacts"
-                      class="
-                        font-medium
-                        tracking-wide
-                        text-gray-700
-                        transition-colors
-                        duration-200
-                        hover:text-deep-purple-accent-400
-                      "
+                      class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >Contacts</a
                     >
                   </li>
                   <li>
                     <a
                       href="/#team"
-                      class="
-                        font-medium
-                        tracking-wide
-                        text-gray-700
-                        transition-colors
-                        duration-200
-                        hover:text-teal-accent-400
-                      "
+                      class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-400"
                       >Our Team</a
                     >
                   </li>
                   <li>
                     <a
+                      href="/booking"
+                      class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-400"
+                      >Dive & Stay</a
+                    >
+                  </li>
+                  <li>
+                    <a
                       href="/news"
-                      class="
-                        font-medium
-                        tracking-wide
-                        text-gray-700
-                        transition-colors
-                        duration-200
-                        hover:text-teal-accent-400
-                      "
+                      class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-400"
                       >News</a
                     >
                   </li>
                   <li>
                     <a
                       href="/#testimonials"
-                      class="
-                        font-medium
-                        tracking-wide
-                        text-gray-700
-                        transition-colors
-                        duration-200
-                        hover:text-teal-accent-400
-                      "
+                      class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-400"
                       >Testimonials</a
                     >
                   </li>
                   <li>
                     <a
                       href="/booking"
-                      class="
-                        inline-flex
-                        items-center
-                        justify-center
-                        w-full
-                        h-12
-                        px-6
-                        font-medium
-                        tracking-wide
-                        text-white
-                        transition
-                        duration-200
-                        rounded
-                        shadow-md
-                        bg-gradient-to-r
-                        from-violet-500
-                        to-fuchsia-500
-                        hover:bg-deep-purple-accent-700
-                        focus:shadow-outline focus:outline-none
-                      "
+                      class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                     >
                       Booking
                     </a>
@@ -382,8 +215,8 @@
     </div>
   </div>
 </template>
-  
-  <script>
+
+<script>
 export default {
   data() {
     return {

@@ -1,6 +1,6 @@
 <template v-slot:content>
   <div class="mt-32 flex justify-end items-end mr-3">
-    <button
+    <!-- <button
       class="top-0 right-0 p-2.5 flex text-sm font-medium text-white bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
     >
       <svg
@@ -21,7 +21,7 @@
       <a href="/searchbooking">
         <span class="text-white text-lg ml-2">Search for your booking</span>
       </a>
-    </button>
+    </button> -->
   </div>
   <h3 class="flex mt-4 items-center my-8">
     <span aria-hidden="true" class="grow bg-gray-200 rounded h-0.5"></span>
@@ -266,6 +266,24 @@
                     for="services"
                     class="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300"
                     >Boat ride to Gombe National Park</label
+                  >
+                </div>
+              </li>
+              <li
+                class="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600"
+              >
+                <div class="flex items-center pl-3">
+                  <input
+                    v-model="services"
+                    id="services"
+                    type="checkbox"
+                    value="Research Consultation"
+                    class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
+                  />
+                  <label
+                    for="services"
+                    class="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300"
+                    >Research Consultation</label
                   >
                 </div>
               </li>

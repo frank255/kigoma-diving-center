@@ -13,10 +13,13 @@
             </h2>
             <p class="text-base text-gray-700 md:text-lg">
                  {{service.description}}
+            </p> 
+             <p class="text-base text-gray-700 md:text-lg">
+                Price: {{service.price}}
             </p>
           </div>
           <div>
-            <a href="/" aria-label="" class="inline-flex p-3 rounded-full items-center font-semibold transition-colors duration-200 text-white bg-gradient-to-r from-violet-500 to-fuchsia-500">
+            <a href="/booking" aria-label="" class="inline-flex p-3 rounded-full items-center font-semibold transition-colors duration-200 text-white bg-gradient-to-r from-violet-500 to-fuchsia-500">
               Book Now
               <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
                 <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path>

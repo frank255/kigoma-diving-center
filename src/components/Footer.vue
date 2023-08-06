@@ -5,14 +5,14 @@
         <div class="md:max-w-md lg:col-span-2">
           <span class="text-base mt-4 font-medium tracking-wide text-gray-500">KDSC</span>
           <p class="mt-4 text-sm text-gray-500">
-          Kigoma Diving&Snorkling Center is committed to offering excellent services with integrity and impartiality.</p>
+          Kigoma Diving and Snorkling Center provides you with an opportunity to go where few people have gone before</p>
         </div>
         <div class="grid grid-cols-1 gap-5 row-gap-8 lg:col-span-2 md:grid-cols-2">
           <div class="md:w-56">
             <p class="font-medium mt-3 tracking-wide text-gray-500">Contacts</p>
             <div class="flex">
           <p class="mr-1 text-gray-500">Phone:</p>
-          <a href="tel:+255764 722 945" aria-label="Our phone" title="Our phone" class="transition-colors duration-300 text-gray-500 hover:text-deep-purple-800">0764 722 945</a>
+          <a href="tel:+255764 722 945" aria-label="Our phone" title="Our phone" class="transition-colors duration-300 text-gray-500 hover:text-deep-purple-800">+255764 722 945</a>
         </div>
         <div class="flex">
           <p class="mr-1 text-gray-500">Email:</p>

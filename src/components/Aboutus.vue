@@ -7,9 +7,9 @@
         <div class="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
             <div class="w-full mx-auto">
                <p class="text-center flex-grow md:text-lg" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
-                The Kigoma dive and snorkeling center is the collective of the oldest and experienced divers of the Lake Tanganyika for more than 30yrs with most reputable dive operation in Kigoma region.
+                The Kigoma diving and snorkeling center is the collective of the oldest and experienced divers of the Lake Tanganyika for more than 30yrs with most reputable dive operation in Kigoma region.
                 Dating back to 2009, many of tourists have been delighted by the snorkeling, boat tours and scuba diving services offered by these divers as the result of the outstanding team we have today.
-                In 2022 Msafiri George, Tanzanian recognized the passion of the service and hard works of these divers, with his passion to aquatic life and sustaining alternative source of income to the community 
+                In 2022 Msafiri George Kazumbe, Tanzanian recognized the passion of the service and hard work of these divers, with his passion to aquatic life and sustaining alternative source of income to the community 
                 through tourism he established the company with the aim of helping community with an alternative source of income and expanded its operations on Kigoma region to include some of the best accommodation 
                 and beach lodges on the great lake.
                </p>
