@@ -63,7 +63,7 @@
             </div>
             <div>
               <p class="mb-4 text-xl font-medium">
-                Do I need to bring the divingbor snorkeling gears with you?
+                Do I need to bring the Diving or Snorkeling gear?
               </p>
               <p class="text-gray-700">
                 Not necessarily,we have plenty of gear for you to enjoy your water activities,however we are flexible for you to bring and use your own gears as far as they are in good working conditions.
