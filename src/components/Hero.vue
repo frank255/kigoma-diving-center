@@ -8,7 +8,7 @@
         data-aos-delay="500"
         >
             <h1 class="mb-8 text-4xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
-                <span>Kigoma</span> <span class="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-green-400 to-purple-500 lg:inline">Diving & Snorkling</span> <span>Center</span>
+                <span>Kigoma</span> <span class="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-green-400 to-purple-500 lg:inline">Diving & Snorkeling</span> <span>Center</span>
             </h1>
             <p class="px-0 mb-8 text-lg text-gray-600 md:text-xl lg:px-24">
               “Enter a magic underwater of African’s oldest and deepest freshwater
