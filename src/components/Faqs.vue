@@ -88,8 +88,8 @@
               How I can pay/mode of payment?
             </p>
             <p class="text-gray-700">
-              Currently, both card and cash payments are accepted. The accepted
-              card types include MasterCard, Visa, and American Express.
+              Currently, only cash payments are accepted.In near future
+              MasterCard,Visa and American Experess will be offered.
             </p>
           </div>
           <div>
