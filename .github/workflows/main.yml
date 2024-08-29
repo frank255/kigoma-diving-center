@@ -19,6 +19,6 @@ jobs:
         FTP_PASSWORD: ${{secrets.ftp_password}}
         LOCAL_DIR: ./dist/
         REMOTE_DIR: ./public_html
-        METHOD: sftp
+        METHOD: ftp
         PORT: 22
         ARGS: --verbose
