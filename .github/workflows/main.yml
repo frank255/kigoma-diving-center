@@ -18,7 +18,7 @@ jobs:
         FTP_USERNAME: ${{secrets.ftp_username}}
         FTP_PASSWORD: ${{secrets.ftp_password}}
         LOCAL_DIR: ./dist/
-        REMOTE_DIR: ./kigomadivingcenter.com/
+        REMOTE_DIR: ./kigomadivingcenter.com/public_html
         METHOD: sftp
         PORT: 22
         ARGS: --verbose
