@@ -1,6 +1,6 @@
 <template>
   <!-- component -->
-  <!-- <section class="mt-10 pt-24 pb-6 bg-white">
+  <section class="mt-10 pt-24 pb-6 bg-white">
     <div class="px-2 md:px-12 mx-auto max-w-7xl">
       <div
         class="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center"
@@ -9,7 +9,7 @@
         data-aos-delay="500"
       >
         <h1
-          class="mb-8 text-4xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight"
+          class="mb-8 text-xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight"
         >
           <span>Kigoma</span>
           <span
@@ -36,11 +36,10 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <!-- Hero -->
-  <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
-    <!-- Grid -->
+  <!-- <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
       <div class="lg:col-span-3">
         <h1
@@ -73,7 +72,6 @@
           </a>
         </div>
 
-        <!-- Brands -->
         <div class="mt-6 lg:mt-12">
           <span
             class="text-xs font-medium text-gray-800 uppercase dark:text-neutral-200"
@@ -220,9 +218,7 @@
             </svg>
           </div>
         </div>
-        <!-- End Brands -->
       </div>
-      <!-- End Col -->
 
       <div class="lg:col-span-4 mt-10 lg:mt-0">
         <img
@@ -231,10 +227,8 @@
           alt="Image Description"
         />
       </div>
-      <!-- End Col -->
     </div>
-    <!-- End Grid -->
-  </div>
+  </div> -->
   <!-- End Hero -->
 </template>
 
